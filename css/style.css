@@ -1,0 +1,56 @@
+.cabecalho{
+    background-image: url("../img/gigante.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #5b5b5b;
+    background-color: #1b1b1b;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    margin-left: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+.menu ul li a{
+    color: #6b6b6b;
+    text-decoration: none;
+    font-size: 12px;
+}
+.menu ul li a:hover{
+    color: white;
+    font-weight: 600;
+}
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right:0;
+    color: #5b5b5b;
+    background-color: #1b1b1b;
+}
+.menu ul ul li {
+    width: 100%; 
+    display: block;
+    padding: 5px 2px;
+}
+.menu ul li:hover > ul {
+    display: block; 
+}
+
+.textBanner{
+    text-align: center;
+    margin: 17.5% 0;
+    color: white;
+    text-shadow: 3px 1px 3px black;
+}
