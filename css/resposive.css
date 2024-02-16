@@ -1,6 +1,22 @@
-@media screen and (min-width:769px){
+@media screen and (min-width:768px){
     .textBanner h2{
         top: 50%;
         font-size: 30px;
     }
+
+    .dsflex{
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+    }
+    .descricao{
+        width: 50%;
+        padding: 0 20px;
+    }
+    .configImagens{
+        width: 50%;
+        height: 526px;
+    }
 }
+
+

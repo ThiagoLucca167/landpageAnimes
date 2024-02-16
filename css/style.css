@@ -47,6 +47,7 @@
 .menu ul li:hover > ul {
     display: block; 
 }
+/* TEXTO BANNER */
 .textBanner h2{
     color: white;
     text-shadow: 3px 1px 3px black;
@@ -54,4 +55,55 @@
     position: absolute;
     width: 90%;
     top: 40%;
+}
+
+
+/* top 10*/
+.dsflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dsflexinverse{
+    flex-direction: column-reverse;
+}
+
+/* COLORS BACKGROUND TOP 10 */
+.tp1{
+    background-color: #1b1b1b;
+}
+.descricao{
+    text-align: center;
+    width: 100%;
+}
+.descricao h2{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+.descricao h2.bck{
+    color: black;
+}
+.descricao p{
+    font-size: 15px;
+    text-align: justify;
+    color: #6b6b6b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*CONFIGGURAÇÕES DA IMAGENS*/
+.configImagens{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 260px;
+}
+/* IMAGENS*/
+.top1{
+    background-image: url(../img/rickAndMorty.jpg);
+    
+}
+.top2{
+    background-image: url(../img/naruto.jpg);
 }
