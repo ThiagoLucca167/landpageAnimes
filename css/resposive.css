@@ -1,3 +1,9 @@
+@media screen and (min-width:650px){
+    .noticias{
+        grid-template-columns:auto auto;
+    }
+    
+}
 @media screen and (min-width:768px){
     .textBanner h2{
         top: 50%;
@@ -5,6 +11,7 @@
     }
 
     .dsflex{
+        height: 101vh;
         flex-direction: row;
         justify-content: center;
         align-items: start;
@@ -15,8 +22,18 @@
     }
     .configImagens{
         width: 50%;
-        height: 526px;
+        height: 100%;
     }
 }
 
 
+@media screen and (min-width:900px){
+    .noticias{
+        grid-template-columns:auto auto auto;
+    }
+}
+@media screen and (min-width:1200px){
+    .noticias{
+        grid-template-columns:auto auto auto auto;
+    }
+}

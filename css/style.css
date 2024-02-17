@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 101vh;
+    height: 100%;
 }
 .dsflexinverse{
     flex-direction: column-reverse;
@@ -98,8 +98,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
-    height: 230px;
-    width: 260px;
+    height: 60vh;
+    width: 40vw;
 }
 /* IMAGENS*/
 .top1{
@@ -122,7 +122,7 @@
 }
 .top6{
     background-image: url(../img/cavaleiros.jpg);
-    
+
 }
 .top7{
     background-image: url(../img/pokemon.jpg);
@@ -137,4 +137,34 @@
 .top10{
     background-image: url(../img/avatar.jpg);
     
+}
+
+
+.noticias{
+    display: grid;
+    grid-template-columns:auto;
+    gap: 25px 0px;
+    justify-items: center;
+}
+
+.card{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 0 0 20px 0;
+}
+.card .head-card .configNoticias{
+    width: 100%;
+    padding: 0px;
+    border-radius: 9px 9px 0px 0px;
+}
+.card .body-card .linkNoticias{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.card .body-card .linkNoticias:hover{
+    text-decoration: underline;
 }
